@@ -1,0 +1,60 @@
+/* header design */
+header{
+    background-color: darkgray;
+    background-image: ;
+}
+.newtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: 700;
+}
+.firstbtn{
+    background-color: orangered;
+    width: 100px;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+}
+.part1{
+    text-align: right;
+    padding-right: 100px;
+    
+}
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    justify-content: space-between;
+}
+/* body design */
+.main1{
+    display: flex;
+    align-items: center;
+    padding: 70px 200px;
+    justify-content: space-between;
+    gap: 150px;
+}
+.para1{
+    color: darkgrey;
+}
+ul li {
+    color: darkcyan;
+}
+.secondtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 0px;
+}
+ul{
+    list-style: none;
+}
+ul li:before {
+    content: '✓';
+    padding-right: 10px;
+  }
